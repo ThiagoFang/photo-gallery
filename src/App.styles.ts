@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   color: #FFF;
   min-height: 100vh;
-  background: linear-gradient(90deg, rgba(2,1,15,1) 0%, rgba(10, 47, 64, 1) 170%);
+  background: linear-gradient(90deg, rgba(2,1,15,1) 0%, rgba(10, 47, 64, 1) 190%);
 `;
 
 export const Area = styled.div`
@@ -23,7 +23,7 @@ export const Header = styled.h1`
 
 export const ScreenWarning = styled.div`
   text-align: center;
-
+  
   .emoji {
     font-size: 50px;
     margin-bottom: 20px;
