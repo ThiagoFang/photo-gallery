@@ -4,6 +4,10 @@ export const Container = styled.div`
   color: #FFF;
   min-height: 100vh;
   background: linear-gradient(90deg, rgba(2,1,15,1) 0%, rgba(10, 47, 64, 1) 190%);
+
+  @media screen and (max-width: 425px) {
+    padding: 30px;
+  }
 `;
 
 export const Area = styled.div`
@@ -38,6 +42,10 @@ export const PhotoList = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+
+  @media screen and (max-width: 425px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 export const UploadForm = styled.form`
@@ -63,5 +71,11 @@ export const UploadForm = styled.form`
     &:hover {
       opacity: .9;
     }
+  }
+
+  @media screen and (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.25rem;
   }
 `;
